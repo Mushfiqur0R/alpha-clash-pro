@@ -9,6 +9,14 @@
 //     playgroundSection.classList.remove('hidden');
 // }
 
+
+function handleKeyboardButtonPress(){
+    console.log('button pressed');
+}
+// captured keyboard key press
+document.addEventListener('keyup',handleKeyboardButtonPress );
+
+
 function continueGame(){
     //step 1: generate a random alphabet
     const alphabet = getRandomAlphabet();
